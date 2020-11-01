@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+   -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+/*======================Start Header===================================================*/
+
+.navbar-inverse{
+    background-color: #000;
+    margin: 0;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus{
+    background:#006df0
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background: #006df0
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #bbb;
+    font-size: 20px;
+    padding-left: 30px
+}
+.navbar-header img{
+    width: 32px;
+    margin: 8px -9px
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: #006df0;
+    color: #fff;
+    padding: 7px 30px;
+    -webkit-transition: padding 0.6s ease;
+    -moz-transition: padding 0.6s ease;
+    -o-transition: padding 0.6s ease;
+    transition: padding 0.6s ease
+}
+.navbar-inverse .navbar-brand {
+    color: #bbb;
+    font-size:24px
+}
+.navbar-inverse .navbar-brand span{
+    color:#004aff;
+    margin-left:20px
+}
+.dropdown-menu{
+    min-width:200px;
+    padding:0
+}
+.dropdown-menu > li > a {
+    background: #333;
+    color: #fff;
+    padding:7px 20px
+}
+    .dropdown-menu .divider {
+        margin: 0;
+        background: #062b58;
+    }
+
+/*======================End Header===================================================*/
+.contant{
+    background-color: #cfd0d1;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #e7e4e4;
+    outline: none;
+  }
+  
+  input[type=submit] {
+    background-color: #006df0;
+    color: white;
+    padding: 8px 42px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .text-contact{
+      background-color: #006df0;
+      color: #fff;
+      height: 300px;
+  }
+  .text-contact h1{
+      font-size: 50px;
+      font-weight: bold;
+  }
+  .text-contact i{
+    color: #062b58;
+    margin-top: 90px;
+
+  }
+  .column h1{
+      text-align: center;
+      color: #062b58;
+  }
+  .column i {
+    color: #062b58;
+    margin-left: 14px
+}
+    .column ul {
+        direction: rtl;
+        list-style: none;
+        font-size: 19px;
+        padding-top: 29px;
+        font-weight: 500;
+    }
+form{
+    direction: rtl;
+}
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  footer{
+      background-color:#006df0 ;
+      direction: rtl;
+      text-align: center;
+      color: #fff;
+      padding: 10px;
+      text-transform: capitalize;
+  }
+  .invalid-feedback {
+    margin-top: -9px;
+    margin-bottom: 4px;
+    color: #f00;
+    display: none;
+  }
+  /****************** Start Form*************************************************/
+  .modil{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+  }
+  .logo img{
+    width: 100px;
+}
+.logo h2{
+  
+    margin-bottom: 30px;
+    font-size: 40px;
+    
+}
+.form{
+    position: relative;
+    top: 40px;
+    box-shadow: 0 0 30px rgb(0, 0, 0,.5);
+    background-color: #fff;
+    padding: 40px 40px;
+    border-radius: 5px;
+    z-index: 1;
+   color:#fff;
+   overflow: hidden;
+
+}
+
+.form .input-icon{
+margin: 31px auto;
+width: 80%;
+border-bottom: 1px solid #fff;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+.form .input-icon .input100{
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+}
+::placeholder{
+    color:#fff;
+   
+}
+.fa{
+    margin-left: 2px;
+    color: #fff;
+}
+
+.form .span{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.form .span:hover{
+    color: #858386;
+}
+.form .forgetPass{
+    text-align: right;
+}
+.btn-primary{
+    margin-top: 20px;
+    width: 80%;
+   background:#030a10;
+   color: #fff;
+   outline: none;
+   border: 1px solid #333;
+   
+
+}
+.btn-primary:hover{
+    background-color: rgb(10, 231, 202)333;
+}
+.form p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+.eye{
+    cursor: pointer;
+    position: absolute;
+   
+}
+ i{
+    color: #fff
+}
+#close{
+    display: none;
+}
+
+.errorCode{
+    background: #f00;
+    color: #fff;
+    border-radius: 4px;
+    display: none;
+}

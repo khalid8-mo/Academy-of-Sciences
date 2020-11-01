@@ -1,0 +1,167 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>اكاديمية العلوم</title>
+
+</head> 
+<body >
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header ">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">اكاديمية<span> العلوم  </span></a>
+            <img src = "image/favicon.ico"/>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">لغات البرمجه  <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="language.html">language programing</a></li>
+                        <li><a href="php.html">Php</a></li>
+                        <li><a href="lang-c.html">C#</a></li>
+                        <li><a href="#">Java Script</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Java</a></li>
+
+                    </ul>
+                </li>
+                <li class="active"><a href="contact.html">اتصل بنا </a></li>
+
+                <li><a href="about.html">من نحن </a></li>
+                <li ><a href="index.html">الصفحه الرئسيه <span class="sr-only">(current)</span></a></li>
+
+
+            </ul>
+
+
+        </div><!-- End navbar-collapse -->
+    </div><!-- End  container -->
+</nav>
+<!-- Sgin up -->
+<div class="modil">
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6 text-center">
+     
+    <form action="contact.html"  class="form" style=" background-image: url('image/zac-wolff--JRH1X5Fsn0-unsplash.jpg');background-size: cover;">
+          <div class="close"style="position: absolute;top: 0;right: 10px;">
+            <span class="closebtn"title="اغلاق"style="font-size:40px;color:#fff"id="btn-close">×</span>
+          </div>
+      <div class="logo">
+           
+              <h2 style="color: #fff;">تسجيل الدخول </h2>
+              <div class="errorCode">
+                  <p>كلمة المرور او اسم المستخدم خطا</p>
+              </div>
+          </div>
+
+          <div class="boxInput">
+          <div class="input-icon">
+              <span class="fa fa-envelope-o"></span>
+          <input class="input100" type="email"placeholder="  البريد الالكتروني">
+          
+          </div>
+          <div class="input-icon">
+                  <span class="fa fa-key"></span>
+              <input id="pass" class="input100" type="password"placeholder="  كلمة المرور">
+      
+          </div>
+          <div class="forgetPass">
+             <a href="FourgitPassword.html"> <span style="font-size: 17px;color: #fff;">نسيت كلمة المرور</span> </a>
+          </div>
+          <div id="test"></div>
+          <button type="submit"class="btn btn-primary "id="btnSubmit"> تسجيل الدخول</button>
+
+          <p>الحقوق محفوظه للاداره العامه لتقنية المعلومات</p>
+      </div>
+      </form>
+  </div>
+      <div class="col-md-3"></div>
+</div>
+ </div>
+</div>
+   
+  <div class="text-contact back-Header" style="background-image: url('image/Card2.jpg');height: 426px;">
+    <div class="container">
+  
+  </div>
+</div>
+<div class="contant">
+<div class="container">
+  <div class="row">
+    <div class="column hidden-xs">
+      <img src="image/Vector Smart Object-pdf4.png" style="width:100%">
+      <h1>معلومات الاتصال</h1>
+      <ul>
+        <li><i class="fa fa-caret-left"></i>تطبيق بسيط وسهل الإستخدام</li>
+        <li><i class="fa fa-caret-left"></i>إضافة تفاصيلك وتفاصيل خدمتك بسهولة ويسر</li>
+        <li><i class="fa fa-caret-left"></i>سرعة في الوصول إليكم </li>
+        <li><i class="fa fa-caret-left"></i>توصيل شحنتك لوجهتها الجديده بآمان وحرص</li>
+        <li><i class="fa fa-caret-left"></i>فريق عمل خبره بنقل الاثاث المنزلي</li>
+    </ul>
+
+    </div>
+    <div class="column">
+      <form action="index.html">
+        <label for="fname">الاسم الاول</label>
+        <input type="text" id="fname" name="firstname" class="input">
+        <div class="invalid-feedback">الرجاء ادخال الاسم الاول</div>
+        <label for="lname">الاسم الاخير</label>
+        <input type="text" id="lname" name="lastname"  class="input">
+        <div class="invalid-feedback">الرجاء ادخال الاسم الاخير</div>
+        <label for="subject">النص </label>
+        <textarea id="subject" name="subject"  style="height:170px"minlingth="50"class="input"></textarea>
+        <div class="invalid-feedback ">الرجاء كتابت 50 كلمه علي الاقل</div>
+        <input type="submit" value="ارسال"id="Send">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+    <footer>
+     جميع الحقوق محفوظه &copy; 2020 اكاديمية العلوم 
+    </footer>  
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+          $("#Send").click(function (e) {
+            if ($(".input").val() == "") {
+                e.preventDefault()
+                $(".invalid-feedback").show();
+            } else {
+                $(".invalid-feedback").hide();
+            }
+        });
+        $(document).ready(function(){
+          $(".modil").show(500)
+        },10000)
+        $("#btn-close").click(function(){
+          $(".modil").hide(500)
+        });
+        $("#btnSubmit").click(function (e) {
+    if ($(".input100").val() == "") {
+        e.preventDefault()
+        $(".errorCode").show();
+    } else {
+        $(".errorCode").hide();
+    }
+});
+    </script>
+</body>
+</html>
